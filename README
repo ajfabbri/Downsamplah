@@ -1,0 +1,43 @@
+MP3 Downsampler
+Aaron Fabbri, 2004
+----------------
+
+The MP3 Downsampler creates a copy of your entire .mp3 music collection,
+re-encoding the files at a lower bitrate. This allows you to encode your CD's at
+a high quality setting for archival purposes, and then also create lower-quality
+versions so you can fit more songs on your portable mp3 player. (written in
+Python)
+
+
+
+Runs on Linux. Will run on other OS's with some simple modificaitons.
+
+Requirements
+----------------
+
+The following support software is not included unless otherwise noted:
+
+- Python (probably version 2.2 or later).
+
+- Lame MP3 encoder. You can use other encoders if you like, just edit the
+  beginning of the downsamplah.py file.
+
+- An MP3 decoder, such as mpg321.
+
+- ID3-py, included.
+
+Getting Started
+----------------
+
+1. Edit the beginning of the downsamplah.py file to match your platform.  Which
+   encoder/decoder your platform uses, and where it's located need to be
+   configured. 
+
+2. Run 'python downsamplah.py' with no arguments for usage information.
+
+
+Questions, Comments, Bugs?
+----------------
+
+Contact Aaron Fabbri at ajfabbri -at- yahoo -dot- com.
+

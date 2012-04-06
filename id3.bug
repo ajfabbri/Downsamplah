@@ -1,0 +1,14 @@
+Writing LAME Tag...done
+81 Folk/Rock
+ *** src_path /raid/Music/mp3s, tgt_path /raid/Music/vbr-mp3s
+ *** src /raid/Music/mp3s/interpol/antics/01-next_exit.mp3, tgt /raid/Music/vbr-mp3s/interpol/antics/01-next_exit.mp3
+Traceback (most recent call last):
+  File "/home/fabbri/Dev/downsampler/downsamplah.py", line 188, in ?
+    ds.create_targets()
+  File "/home/fabbri/Dev/downsampler/downsamplah.py", line 144, in create_targets
+    srcID3 = ID3(src)
+  File "/home/fabbri/Dev/downsampler/ID3.py", line 196, in __init__
+    self.file = open(file, 'rb')
+IOError: [Errno 2] No such file or directory: '/raid/Music/mp3s/interpol/antics/01-next_exit.mp3'
+Exception exceptions.AttributeError: "ID3 instance has no attribute 'modified'" in <bound method ID3.__del__ of <ID3.ID3 instance at 0x81e63fc>> ignored
+
